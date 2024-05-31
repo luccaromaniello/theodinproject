@@ -2,21 +2,29 @@ body {
   width: 100%;
   max-width: 1068px;
   margin: 0 auto;
-  padding: 24px;
+  padding: 72px 0;
   background-color: #FAFAFA;
   font-family: Tahoma, sans-serif;
   font-size: 16px;
 }
 
+h1 {
+  font-size: 48px;
+}
+
 h1, h2 {
-  margin: 0 0 16px 0;
+  margin: 0 0 20px 0;
 }
 
 .recipe-img {
-  width: 480px;
+  width: 560px;
   height: auto;
-  border-radius: 12px;
+  border-radius: 8px;
   margin-bottom: 24px;
+}
+
+.content-section {
+  padding: 20px 0;
 }
 
 ul li {
