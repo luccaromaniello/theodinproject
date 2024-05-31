@@ -12,8 +12,12 @@ h1 {
   font-size: 48px;
 }
 
+h2 {
+  font-size: 32px;
+}
+
 h1, h2 {
-  margin: 0 0 20px 0;
+  margin: 20px 0;
 }
 
 .recipe-img {
@@ -24,11 +28,11 @@ h1, h2 {
 }
 
 .content-section {
-  padding: 20px 0;
+  padding: 16px 0;
 }
 
 ul li {
-  padding: 8px 0;
+  padding: 12px 0;
 }
 
 ul li::marker {
@@ -37,4 +41,5 @@ ul li::marker {
 
 ol li {
   margin-bottom: 16px;
+  padding: 8px;
 }
