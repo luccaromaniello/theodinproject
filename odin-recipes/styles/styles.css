@@ -4,7 +4,7 @@ body {
   margin: 0 auto;
   padding: 24px;
   background-color: #FAFAFA;
-  font-family: Helvetica, sans-serif;
+  font-family: Tahoma, sans-serif;
   font-size: 16px;
 }
 
@@ -17,6 +17,10 @@ h1, h2 {
   height: auto;
   border-radius: 12px;
   margin-bottom: 24px;
+}
+
+ul li {
+  padding: 8px 0;
 }
 
 ul li::marker {
