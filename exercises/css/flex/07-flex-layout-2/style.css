@@ -44,7 +44,15 @@ body {
   text-decoration: none;
 }
 
+.cards {
+  display: flex;
+  gap: 24px;
+  padding: 48px;
+  flex-wrap: wrap;
+}
+
 .card {
+  flex: 1;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
