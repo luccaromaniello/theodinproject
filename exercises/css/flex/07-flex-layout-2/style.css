@@ -28,6 +28,18 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  display: flex;
+  flex: 1 0 0;
+}
+
+.sidebar ul {
+  font-size: 24px;
+  list-style-type: none;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
 }
 
 .card {
