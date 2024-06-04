@@ -28,10 +28,10 @@ body {
 
 .sidebar {
   width: 300px;
+  flex: 1 0 0;
   background: royalblue;
   box-sizing: border-box;
-  display: flex;
-  flex: 1 0 0;
+  padding: 16px;
 }
 
 .sidebar ul {
