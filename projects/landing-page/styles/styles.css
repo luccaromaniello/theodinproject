@@ -3,6 +3,7 @@ body {
   padding: 0;
 }
 
-.header, .hero, footer {
+.dark-background {
   background-color: #1F2937;
+  color: white;
 }
