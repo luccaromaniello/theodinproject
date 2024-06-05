@@ -3,6 +3,11 @@ body {
   padding: 0;
 }
 
+.alignment {
+  padding-left: 256px;
+  padding-right: 256px;
+}
+
 .dark-background {
   background-color: #1F2937;
 }
