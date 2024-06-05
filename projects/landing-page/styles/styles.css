@@ -28,6 +28,11 @@ body {
   color: #e5e7eb;
 }
 
+.links-container {
+  display: flex;
+  gap: 24px;
+}
+
 ul {
   list-style-type: none;
 }
