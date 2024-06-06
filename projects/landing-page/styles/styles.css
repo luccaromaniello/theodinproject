@@ -43,6 +43,24 @@ ul {
   list-style-type: none;
 }
 
+.hero {
+  display: flex;
+  gap: 144px;
+}
+
+.text {
+  flex: 1;
+}
+
+.img-container {
+  display: flex;
+  flex: 1;
+  background-color: grey;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
 h1 {
   font-size: 48px;
   font-weight: 800;
