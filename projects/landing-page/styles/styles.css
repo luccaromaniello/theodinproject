@@ -59,6 +59,10 @@ ul {
   flex: 1;
 }
 
+.text .description {
+  font-weight: 300;
+}
+
 .img-container {
   display: flex;
   flex: 1;
@@ -180,4 +184,14 @@ h3 {
   font-size: 16px;
   font-weight: 300;
   margin: 0;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
+  color: white;
+  font-weight: 300;
 }
