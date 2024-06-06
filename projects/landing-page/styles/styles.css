@@ -46,6 +46,8 @@ ul {
 .hero {
   display: flex;
   gap: 144px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .text {
@@ -65,6 +67,7 @@ h1 {
   font-size: 48px;
   font-weight: 800;
   color: #f9faf8;
+  margin: 0;
 }
 
 .sign-up-button {
