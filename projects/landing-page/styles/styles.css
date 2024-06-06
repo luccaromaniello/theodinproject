@@ -48,3 +48,11 @@ h1 {
   font-weight: 800;
   color: #f9faf8;
 }
+
+.sign-up-button {
+  background-color: #3882f6;
+  padding: 8px 32px;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
