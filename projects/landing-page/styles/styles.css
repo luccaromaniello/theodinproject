@@ -89,6 +89,9 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 16px;
+  padding-top: 32px;
+  padding-bottom: 48px;
 }
 
 h2 {
@@ -99,7 +102,7 @@ h2 {
 
 .illustrations {
   display: flex;
-  gap: 32px;
+  gap: 64px;
   padding-left: 64px;
   padding-right: 64px;
   text-align: center;
@@ -111,6 +114,8 @@ h2 {
 }
 
 .illustration {
-  border: 2px solid #3882f6;
-  border-radius: 8px;
+  border: 3px solid #3882f6;
+  border-radius: 12px;
+  width: 100%;
+  min-height: 184px;
 }
