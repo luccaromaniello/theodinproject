@@ -97,6 +97,14 @@ h2 {
   color: #1F2937;
 }
 
+.illustrations {
+  display: flex;
+  gap: 32px;
+  padding-left: 64px;
+  padding-right: 64px;
+  text-align: center;
+}
+
 .illustration-container {
   display: flex;
   flex-direction: column;
@@ -104,4 +112,5 @@ h2 {
 
 .illustration {
   border: 2px solid #3882f6;
+  border-radius: 8px;
 }
