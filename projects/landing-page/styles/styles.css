@@ -167,3 +167,14 @@ h2 {
 .cta-container a {
   text-decoration: none;
 }
+
+h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.cta-container .description p {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+}
