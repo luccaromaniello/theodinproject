@@ -92,7 +92,7 @@ h1 {
   align-items: center;
   gap: 16px;
   padding-top: 32px;
-  padding-bottom: 48px;
+  padding-bottom: 144px;
 }
 
 h2 {
@@ -125,6 +125,7 @@ h2 {
 
 .quote {
   background-color: #e5e7eb;
+  padding: 96px 360px;
 }
 
 .quote .description {
@@ -132,4 +133,11 @@ h2 {
   font-style: italic;
   font-size: 36px;
   color: #1F2937;
+}
+
+.author {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: end;
+  padding-right: 32px;
 }
