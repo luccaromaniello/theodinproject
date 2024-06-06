@@ -30,6 +30,7 @@ body {
 
 .header-link, .description {
   font-size: 18px;
+  font-weight: 300;
   color: #e5e7eb;
 }
 
@@ -123,6 +124,10 @@ h2 {
 .illustration-container {
   display: flex;
   flex-direction: column;
+}
+
+.illustration-container p {
+  font-weight: 300;
 }
 
 .illustration {
