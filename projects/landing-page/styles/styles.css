@@ -3,6 +3,7 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
+  font-family: "Roboto", sans-serif;
 }
 
 .alignment {
@@ -118,4 +119,17 @@ h2 {
   border-radius: 12px;
   width: 100%;
   min-height: 184px;
+}
+
+/* quote */
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote .description {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 36px;
+  color: #1F2937;
 }
