@@ -14,6 +14,8 @@ body {
   background-color: #1F2937;
 }
 
+/* header */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -42,6 +44,8 @@ body {
 ul {
   list-style-type: none;
 }
+
+/* hero */
 
 .hero {
   display: flex;
@@ -76,4 +80,13 @@ h1 {
   color: white;
   border-radius: 8px;
   text-decoration: none;
+}
+
+/* random info */
+
+.random-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
