@@ -5,7 +5,21 @@ function getComputerChoice() {
     return answers[randomIndex];    
 }
 
-console.log(getComputerChoice());
-console.log(getComputerChoice());
-console.log(getComputerChoice());
-console.log(getComputerChoice());
+function getUserChoice() {
+    let userAnswer = prompt("Rock, Paper or Scissors?").toLowerCase();
+    let validAnswer = false;
+    switch(userAnswer) {
+        case answers[0]:
+            validAnswer = true;
+            break;
+        case answers[1]:
+            validAnswer = true;
+            break;
+        case answers[2]:
+            validAnswer = true;
+            break;
+        default:   
+            throw new Error("Invalid answer. Please choose Rock, Paper or Scissors. Also verify possible typos.");
+    }
+    return userAnswer;
+}
