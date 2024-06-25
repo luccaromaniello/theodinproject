@@ -27,7 +27,29 @@ function getUserChoice() {
 }
 
 function playRound(userChoice, computerChoice) {
-
+    console.log("User Choice: " + userChoice)
+    console.log("Computer Choice: " + computerChoice)
+    let endRound = false;
+    if (userChoice === computerChoice) {
+        console.log("It's a tie!")
+        endRound = true;
+    } else {
+        switch(userChoice) {
+            case answers[0]:
+                computerChoice === answers[1] ? console.log("Computer0 Wins") : console.log("User0 Wins");
+                endRound = true;
+                break;
+            case answers[1]:
+                computerChoice === answers[0] ? console.log("User1 Wins") : console.log("Computer1 Wins");
+                endRound = true;
+                break;
+            case answers[2]:
+                computerChoice === answers[1] ? console.log("User2 Wins") : console.log("Computer2 Wins");
+                endRound = true;
+                break;
+        }
+    }
+    return endRound;
 }
 
 const userSelection = getUserChoice();
