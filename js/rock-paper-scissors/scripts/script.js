@@ -1,5 +1,5 @@
 const answers = ['rock', 'paper', 'scissors'];
-let humanScore = 0;
+let userScore = 0;
 let computerScore = 0;
 
 function getComputerChoice() {
@@ -25,3 +25,12 @@ function getUserChoice() {
     }
     return userAnswer;
 }
+
+function playRound(userChoice, computerChoice) {
+
+}
+
+const userSelection = getUserChoice();
+const computerSelection = getComputerChoice();
+
+playRound(userSelection, computerSelection);
