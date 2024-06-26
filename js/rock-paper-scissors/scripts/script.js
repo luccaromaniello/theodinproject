@@ -1,6 +1,4 @@
 const answers = ['rock', 'paper', 'scissors'];
-let userScore = 0;
-let computerScore = 0;
 
 function getComputerChoice() {
     const randomIndex = Math.floor(Math.random() * answers.length);
@@ -26,33 +24,42 @@ function getUserChoice() {
     return userAnswer;
 }
 
-function playRound(userChoice, computerChoice) {
-    console.log("User Choice: " + userChoice)
-    console.log("Computer Choice: " + computerChoice)
-    let endRound = false;
-    if (userChoice === computerChoice) {
-        console.log("It's a tie!")
-        endRound = true;
-    } else {
-        switch(userChoice) {
-            case answers[0]:
-                computerChoice === answers[1] ? console.log("Computer0 Wins") : console.log("User0 Wins");
-                endRound = true;
-                break;
-            case answers[1]:
-                computerChoice === answers[0] ? console.log("User1 Wins") : console.log("Computer1 Wins");
-                endRound = true;
-                break;
-            case answers[2]:
-                computerChoice === answers[1] ? console.log("User2 Wins") : console.log("Computer2 Wins");
-                endRound = true;
-                break;
+function playGame() {
+    let userScore = 0;
+    let computerScore = 0;
+
+    function playRound(userChoice, computerChoice) {
+        if (userChoice === computerChoice) {
+            console.log("It's a tie!");
+        } else {
+            switch(userChoice) {
+                case answers[0]:
+                    computerChoice === answers[1] ? computerScore++ : userScore++;
+                    break;
+                case answers[1]:
+                    computerChoice === answers[0] ? userScore++ : computerScore++;
+                    break;
+                case answers[2]:
+                    computerChoice === answers[1] ? userScore++ : computerScore++;
+                    break;
+            }
         }
     }
-    return endRound;
+
+    console.log("Game started!");
+
+    for (let rounds = 1; rounds < 6; rounds++) {
+        console.log("Round " + rounds);
+        const userSelection = getUserChoice();
+        const computerSelection = getComputerChoice();
+        console.log("User Choice: " + userSelection)
+        console.log("Computer Choice: " + computerSelection)
+        playRound(userSelection, computerSelection);
+        console.log("User score: " + userScore);
+        console.log("Computer score: " + computerScore);
+    }
+
+    console.log("End Game!");
 }
 
-const userSelection = getUserChoice();
-const computerSelection = getComputerChoice();
-
-playRound(userSelection, computerSelection);
+playGame();
