@@ -37,5 +37,5 @@ This repository is a collection of challenges made following the course structur
 - Battleship (Coming soon)
 
 ## Intermediate HTML and CSS
-- Sign-up Form (Coming soon)
+- Sign-up Form: Live demo (Coming soon) — [Repository](https://github.com/luccaromaniello/top-sign-up-form).
 - Admin Dashboard (Coming soon)
