@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/project-1(/.*)?",
+      "source": "/sign-up-form(/.*)?",
       "destination": "https://top-sign-up-form-7z7kx3gc5-lucca-romaniellos-projects.vercel.app"
     },
   ]
