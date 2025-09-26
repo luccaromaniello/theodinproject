@@ -2,7 +2,11 @@
   "rewrites": [
     {
       "source": "/sign-up-form/:path*",
-      "destination": "https://top-sign-up-form-ivory.vercel.app/:path*"
+      "destination": "https://top-sign-up-form-two.vercel.app"
+    },
+    {
+      "source": "/sign-up-form",
+      "destination": "https://top-sign-up-form-two.vercel.app"
     }
   ]
 }
