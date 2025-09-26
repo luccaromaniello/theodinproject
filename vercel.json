@@ -9,7 +9,7 @@
   "rewrites": [
     {
       "source": "/sign-up-form",
-      "destination": "top-sign-up-form-7z7kx3gc5-lucca-romaniellos-projects.vercel.app"
+      "destination": "top-sign-up-form-ivory.vercel.app"
     }
   ]
 }
