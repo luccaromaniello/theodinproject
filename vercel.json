@@ -1,4 +1,11 @@
 {
+  "redirects": [
+    {
+      "source": "/sign-up-form/:path+",
+      "destination": "/sign-up-form/",
+      "permanent": true          // 301 redirect (set false for 302)
+    }
+  ],
   "rewrites": [
     {
       "source": "/sign-up-form/:path*",
