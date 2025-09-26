@@ -1,8 +1,15 @@
 {
+  "redirects": [
+    {
+      "source": "/sign-up-form/:path*",
+      "destination": "/sign-up-form",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
-      "source": "/sign-up-form(/.*)?",
-      "destination": "https://top-sign-up-form-7z7kx3gc5-lucca-romaniellos-projects.vercel.app"
-    },
+      "source": "/sign-up-form",
+      "destination": "top-sign-up-form-7z7kx3gc5-lucca-romaniellos-projects.vercel.app"
+    }
   ]
 }
