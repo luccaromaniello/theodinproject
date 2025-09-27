@@ -1,12 +1,9 @@
 {
-  "redirects": [
+  "rewrites": [
     {
       "source": "/sign-up-form",
-      "destination": "/sign-up-form/",
-      "permanent": true
-    }
-  ],
-  "rewrites": [
+      "destination": "https://top-sign-up-form-two.vercel.app/"
+    },
     {
       "source": "/sign-up-form/:path*",
       "destination": "https://top-sign-up-form-two.vercel.app/:path*"
