@@ -5,6 +5,10 @@
       "destination": "https://top-sign-up-form-two.vercel.app/"
     },
     {
+      "source": "/sign-up-form/",
+      "destination": "https://top-sign-up-form-two.vercel.app/"
+    },
+    {
       "source": "/sign-up-form/:path*",
       "destination": "https://top-sign-up-form-two.vercel.app/:path*"
     }
