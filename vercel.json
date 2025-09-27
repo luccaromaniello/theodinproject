@@ -4,22 +4,12 @@
       "source": "/sign-up-form",
       "destination": "/sign-up-form/",
       "permanent": true
-    },
-    {
-      "source": "/sign-up-form/:path+",
-      "destination": "/sign-up-form/",
-      "permanent": true
     }
   ],
-
   "rewrites": [
     {
-      "source": "/sign-up-form/",
-      "destination": "https://top-sign-up-form-two.vercel.app/"
-    },
-    {
-      "source": "/sign-up-form",
-      "destination": "https://top-sign-up-form-two.vercel.app/"
+      "source": "/sign-up-form/:path*",
+      "destination": "https://top-sign-up-form-two.vercel.app/:path*"
     }
   ]
 }
