@@ -38,4 +38,4 @@ This repository is a collection of challenges made following the course structur
 
 ## Intermediate HTML and CSS
 - Admin Dashboard (Coming soon)
-- Sign-up Form: [Live demo](https://luccaromaniello.com/theodinproject/sign-up-form/) — [Challenge instructions](https://github.com/luccaromaniello/top-sign-up-form/blob/main/original-instructions.png) — [Repository](https://github.com/luccaromaniello/top-sign-up-form).
+- Sign-up Form: [Live demo](https://luccaromaniello.com/theodinproject/sign-up-form/) — [Challenge instructions](https://github.com/luccaromaniello/top-sign-up-form/blob/main/instructions/original-instructions.png) — [Repository](https://github.com/luccaromaniello/top-sign-up-form).
