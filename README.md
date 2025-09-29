@@ -37,5 +37,5 @@ This repository is a collection of challenges made following the course structur
 - Battleship (Coming soon)
 
 ## Intermediate HTML and CSS
-- Admin Dashboard (Coming soon)
+- Admin Dashboard: (Coming soon) — [Repository](https://github.com/luccaromaniello/top-admin-dashboard).
 - Sign-up Form: [Live demo](https://luccaromaniello.com/theodinproject/sign-up-form/) — [Challenge instructions](https://github.com/luccaromaniello/top-sign-up-form/blob/main/instructions/original-instructions.png) — [Repository](https://github.com/luccaromaniello/top-sign-up-form).
