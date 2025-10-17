@@ -37,5 +37,5 @@ This repository is a collection of challenges made following the course structur
 - Battleship (Coming soon)
 
 ## Intermediate HTML and CSS
-- Admin Dashboard - UI implementation using Grid (Coming soon) | [Repository](https://github.com/luccaromaniello/top-admin-dashboard).
+- Admin Dashboard - UI implementation using Grid | [Live demo](https://luccaromaniello.com/theodinproject/admin-dashboard/) | [Challenge instructions](https://github.com/luccaromaniello/top-admin-dashboard/blob/main/instructions/original-instructions.png) | [Repository](https://github.com/luccaromaniello/top-admin-dashboard) | Completed in October 2025.
 - Sign-up Form - UI implementation using Flexbox | [Live demo](https://luccaromaniello.com/theodinproject/sign-up-form/) | [Challenge instructions](https://github.com/luccaromaniello/top-sign-up-form/blob/main/instructions/original-instructions.png) | [Repository](https://github.com/luccaromaniello/top-sign-up-form) | Completed in September 2025.
